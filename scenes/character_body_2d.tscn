@@ -1,0 +1,235 @@
+[gd_scene load_steps=52 format=3 uid="uid://b8si6raol4npb"]
+
+[ext_resource type="Script" path="res://scripts/character_body_2d.gd" id="1_2qit1"]
+[ext_resource type="Texture2D" uid="uid://d33ol0gu8xpd5" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00003.png" id="1_trtv7"]
+[ext_resource type="Texture2D" uid="uid://m8uk125knklh" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00000.png" id="2_1hb2b"]
+[ext_resource type="Texture2D" uid="uid://bagntyi38klff" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00001.png" id="3_xy6tt"]
+[ext_resource type="Texture2D" uid="uid://did401gagjg54" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00002.png" id="4_r1jm4"]
+[ext_resource type="Texture2D" uid="uid://ccrvlt0anrl0e" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00004.png" id="5_2sf65"]
+[ext_resource type="Texture2D" uid="uid://yxxekboxg2wx" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00005.png" id="6_fcxf7"]
+[ext_resource type="Texture2D" uid="uid://clythucib7cc5" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00006.png" id="7_75v4n"]
+[ext_resource type="Texture2D" uid="uid://cbi8lsil7g6jv" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00019.png" id="8_lsk6e"]
+[ext_resource type="Texture2D" uid="uid://b56p8pr83bkcp" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00018.png" id="9_8ivq8"]
+[ext_resource type="Texture2D" uid="uid://7pkkb2fkq2op" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00017.png" id="10_y24ao"]
+[ext_resource type="Texture2D" uid="uid://dqseu8xdygwn4" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00016.png" id="11_vnvu8"]
+[ext_resource type="Texture2D" uid="uid://ci8xwsdjybtja" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00015.png" id="12_vy0e7"]
+[ext_resource type="Texture2D" uid="uid://dnsq6u4yhmm6r" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00014.png" id="13_gfwjn"]
+[ext_resource type="Texture2D" uid="uid://xsn18r5vv7r1" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00013.png" id="14_eot4j"]
+[ext_resource type="Texture2D" uid="uid://ccqo83pbf4shv" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00007.png" id="15_r5hrc"]
+[ext_resource type="Texture2D" uid="uid://dwjjn0dnivbbq" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00010.png" id="16_5lhyt"]
+[ext_resource type="Texture2D" uid="uid://cqgdy2f2e8y40" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00009.png" id="17_oerlv"]
+[ext_resource type="Texture2D" uid="uid://c8sdjowwexcxi" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00008.png" id="18_2gsgv"]
+[ext_resource type="Texture2D" uid="uid://bxp322fnnm4n7" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00011.png" id="19_fhald"]
+[ext_resource type="Texture2D" uid="uid://c2od7aqv4bicy" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00012.png" id="20_rah0e"]
+[ext_resource type="Texture2D" uid="uid://cvpm6m0mu7pfq" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00000.png" id="21_k1eg6"]
+[ext_resource type="Texture2D" uid="uid://bvjfqy13snjuh" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00002.png" id="22_bdagf"]
+[ext_resource type="Texture2D" uid="uid://evqqnw8ladsn" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00003.png" id="23_1sebh"]
+[ext_resource type="Texture2D" uid="uid://cdmp1syjqc05w" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00001.png" id="24_538kl"]
+[ext_resource type="Texture2D" uid="uid://su16y4rs7nd4" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00004.png" id="25_6puc5"]
+[ext_resource type="Texture2D" uid="uid://caa8ddqlvx0v6" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00005.png" id="26_iu54x"]
+[ext_resource type="Texture2D" uid="uid://s8rtvpc3iqwq" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00006.png" id="27_1c33m"]
+[ext_resource type="Texture2D" uid="uid://bncovthpbb8wx" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardJump/CharaWizardJump_00007.png" id="28_0uski"]
+[ext_resource type="Texture2D" uid="uid://dsd71xh6m65ry" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00006.png" id="29_tw457"]
+[ext_resource type="Texture2D" uid="uid://cxg3w6si2agq2" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00000.png" id="30_7cxno"]
+[ext_resource type="Texture2D" uid="uid://bs1kpbymdhco5" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00005.png" id="31_6oone"]
+[ext_resource type="Texture2D" uid="uid://d1lhe4e4ued8l" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00004.png" id="32_vojdm"]
+[ext_resource type="Texture2D" uid="uid://dgcbvukg8xqc2" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00003.png" id="33_53tjw"]
+[ext_resource type="Texture2D" uid="uid://dk5ihrspe7ooh" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00001.png" id="34_7w54j"]
+[ext_resource type="Texture2D" uid="uid://dhcotrxogowyx" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00002.png" id="35_f7tce"]
+[ext_resource type="Texture2D" uid="uid://bx6515opwvi7f" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00018.png" id="36_l43nk"]
+[ext_resource type="Texture2D" uid="uid://5fkb10wkyd6s" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00019.png" id="37_cmu7h"]
+[ext_resource type="Texture2D" uid="uid://7vmc0wlu3tti" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00017.png" id="38_lqjsp"]
+[ext_resource type="Texture2D" uid="uid://chrt6wvb8wku2" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00008.png" id="39_jssvf"]
+[ext_resource type="Texture2D" uid="uid://5my6w6fefybh" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00016.png" id="40_6f3yf"]
+[ext_resource type="Texture2D" uid="uid://81vjc6gr1sfb" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00015.png" id="41_3kn6j"]
+[ext_resource type="Texture2D" uid="uid://cfu5ubyklgsq3" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00014.png" id="42_1gqy6"]
+[ext_resource type="Texture2D" uid="uid://x5u7wgud3win" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00013.png" id="43_x4im4"]
+[ext_resource type="Texture2D" uid="uid://dnguytu4qsuns" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00011.png" id="44_u5da6"]
+[ext_resource type="Texture2D" uid="uid://rq3j0wuvcwoe" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00010.png" id="45_govw8"]
+[ext_resource type="Texture2D" uid="uid://dlkoes87vbatf" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00009.png" id="46_wdoxc"]
+[ext_resource type="Texture2D" uid="uid://bay8c0y2jqlru" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00012.png" id="47_d71cr"]
+[ext_resource type="Texture2D" uid="uid://bt1u55ld6md0i" path="res://assets/godot tutorial/BlueWizard Animations/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00007.png" id="48_2cnfq"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gc4ji"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_trtv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_1hb2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xy6tt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_r1jm4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2sf65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_fcxf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_75v4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_lsk6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_8ivq8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_y24ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vnvu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_vy0e7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_gfwjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_eot4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_r5hrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5lhyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_oerlv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_2gsgv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_fhald")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_rah0e")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_k1eg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_bdagf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_1sebh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_538kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_6puc5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_iu54x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1c33m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_0uski")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_tw457")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_7cxno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_6oone")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_vojdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_53tjw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_7w54j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_f7tce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_l43nk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_cmu7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_lqjsp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_jssvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6f3yf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_3kn6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_1gqy6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_x4im4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_u5da6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_govw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_wdoxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_d71cr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_2cnfq")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_v8udi"]
+radius = 51.0
+height = 248.0
+
+[node name="Player" type="CharacterBody2D"]
+z_index = 10
+script = ExtResource("1_2qit1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.999992, -2.00001)
+scale = Vector2(0.930664, 0.916992)
+sprite_frames = SubResource("SpriteFrames_gc4ji")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.00361028
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_v8udi")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.3, 0.3)

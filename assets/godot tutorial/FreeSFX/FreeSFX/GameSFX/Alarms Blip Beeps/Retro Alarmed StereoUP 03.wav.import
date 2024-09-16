@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b36y7dby3yin4"
+path="res://.godot/imported/Retro Alarmed StereoUP 03.wav-94f155e8b379f22d4a3bf3187d7367e3.sample"
+
+[deps]
+
+source_file="res://assets/godot tutorial/FreeSFX/FreeSFX/GameSFX/Alarms Blip Beeps/Retro Alarmed StereoUP 03.wav"
+dest_files=["res://.godot/imported/Retro Alarmed StereoUP 03.wav-94f155e8b379f22d4a3bf3187d7367e3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

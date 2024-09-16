@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bsaegvso4ciwl"
+path="res://.godot/imported/Retro Impact Punch 07.wav-82c8f9b6148a2d2e0fbf88727ce3645b.sample"
+
+[deps]
+
+source_file="res://assets/godot tutorial/FreeSFX/FreeSFX/GameSFX/Impact/Retro Impact Punch 07.wav"
+dest_files=["res://.godot/imported/Retro Impact Punch 07.wav-82c8f9b6148a2d2e0fbf88727ce3645b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

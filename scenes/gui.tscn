@@ -1,0 +1,70 @@
+[gd_scene load_steps=8 format=3 uid="uid://d0pgt0lbskanb"]
+
+[ext_resource type="Texture2D" uid="uid://1vdva737fb7d" path="res://assets/godot tutorial/Coin_Gems/MonedaD.png" id="1_n4ch5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrqdp"]
+atlas = ExtResource("1_n4ch5")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xv8ol"]
+atlas = ExtResource("1_n4ch5")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4fbtk"]
+atlas = ExtResource("1_n4ch5")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_olekf"]
+atlas = ExtResource("1_n4ch5")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhjkn"]
+atlas = ExtResource("1_n4ch5")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_andxo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mrqdp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xv8ol")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4fbtk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_olekf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhjkn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="GUI" type="CanvasLayer"]
+
+[node name="CoinsValue" type="Label" parent="."]
+offset_left = 921.0
+offset_top = 5.0
+offset_right = 1104.0
+offset_bottom = 88.0
+theme_override_font_sizes/font_size = 60
+horizontal_alignment = 2
+
+[node name="ScoreValue" type="Label" parent="."]
+offset_left = 970.0
+offset_top = 74.0
+offset_right = 1134.0
+offset_bottom = 117.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 2
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1127, 52)
+scale = Vector2(3, 2.526)
+sprite_frames = SubResource("SpriteFrames_andxo")

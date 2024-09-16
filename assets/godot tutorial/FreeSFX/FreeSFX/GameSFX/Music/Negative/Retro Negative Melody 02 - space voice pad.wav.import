@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3hjhb1bc8npm"
+path="res://.godot/imported/Retro Negative Melody 02 - space voice pad.wav-1f76cc7708d14b505cda61653e41ca0d.sample"
+
+[deps]
+
+source_file="res://assets/godot tutorial/FreeSFX/FreeSFX/GameSFX/Music/Negative/Retro Negative Melody 02 - space voice pad.wav"
+dest_files=["res://.godot/imported/Retro Negative Melody 02 - space voice pad.wav-1f76cc7708d14b505cda61653e41ca0d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bd4nmn56e0joj"
+path="res://.godot/imported/Retro Vehicle Motor 02.wav-56d4fb80e743ce9a56d75e20bc2d3361.sample"
+
+[deps]
+
+source_file="res://assets/godot tutorial/FreeSFX/FreeSFX/GameSFX/Vehicles/Retro Vehicle Motor 02.wav"
+dest_files=["res://.godot/imported/Retro Vehicle Motor 02.wav-56d4fb80e743ce9a56d75e20bc2d3361.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
